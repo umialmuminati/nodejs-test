@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nodejs_umi
+    ports:
+      - '2626:8000'
