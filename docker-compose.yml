@@ -7,4 +7,4 @@ services:
       dockerfile: Dockerfile
     container_name: nodejs_umi
     ports:
-      - '4646:8000'
+      - '2323:8000'
